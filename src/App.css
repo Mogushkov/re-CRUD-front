@@ -1,0 +1,107 @@
+.container {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+}
+
+.list {
+  background-color: rgb(214, 237, 238);
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.item {
+  padding: 15px;
+  border: 1px solid rgb(214, 211, 243);
+  border-radius: 10px;
+  background-color: rgb(247, 247, 242);
+  margin-bottom: 5px;
+ 
+}
+
+.item-btn {
+  text-align: end;
+
+}
+
+.btn {
+  padding: 7px;
+  background-color: rgb(116, 116, 240);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+
+.error {
+  padding: 15px;
+}
+
+.newPost {
+  padding: 7px;
+  background-color: gray;
+}
+
+.newPost__box {
+  padding: 15px;
+  background-color: white;
+  text-align: end;
+}
+
+.newPost__box div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(230, 231, 238, 0.712);
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.btn-close {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: gray;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  height: 150px;
+  padding: 7px;
+  border: none;
+  margin: 7px 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  margin-left: 10px;
+  font-size: 18px;
+  color: rgb(118, 118, 245);
+}
+
+.content {
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.control {
+  margin-top: 25px;
+  text-align: end;
+}
+
+.delete {
+  background-color: red;
+  margin-left: 10px;
+}
+
+.date {
+  color: gray;
+  font-size: 0.8em;
+}
